@@ -41,5 +41,6 @@ fetch(url)
     };
 
     Plotly.newPlot('grafica1', datosGraficas, layout);
+    
 
 });

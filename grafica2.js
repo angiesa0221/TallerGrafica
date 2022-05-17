@@ -2,8 +2,8 @@
 var nombredeldepartamento = [];
 var resguardoalquepertenece = [];
 
-let url= 'https://www.datos.gov.co/resource/hx5x-ykxm.json';
-fetch(url)
+let url2= 'https://www.datos.gov.co/resource/hx5x-ykxm.json';
+fetch(url2)
 
 //Then necesita una promesa, y esa promesa se resuelve
 .then(datos_obtenidos => datos_obtenidos.json())

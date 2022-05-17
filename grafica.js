@@ -2,6 +2,7 @@
 var nombreLengua = [];
 var numeroHablantes = [];
 
+
 //consumo de la API
 let url= 'https://www.datos.gov.co/resource/734h-gxtn.json';
 fetch(url)
@@ -44,3 +45,4 @@ fetch(url)
     
 
 });
+
